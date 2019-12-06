@@ -4,7 +4,8 @@ int main() {
     printf("Enter a positive integer: ");
     scanf("%d", &n);
     for (int i = 2; i < n / 2; ++i) 
-        if (n % i == 0) {
+        if (n % i == 0)  //Condition for non-prime no.
+        {
             flag = 1;
             break;
         }
